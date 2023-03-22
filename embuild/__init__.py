@@ -30,7 +30,7 @@ import pwem
 import shutil
 import pyworkflow as pw
 from pyworkflow.utils import Environ
-from scipion.install.funcs import VOID_TGZ
+#from scipion.install.funcs import VOID_TGZ
 from .constants import *
 
 __version__ = '1.0.0'
@@ -96,7 +96,6 @@ class Plugin(pwem.Plugin):
         EMBuild_commands.append(('cd EMBuild_v1.0/mcp && %s %s && f2py -c interp3d.f90 -m interp3d' % (cls.getCondaActivationCmd(), DEFAULT_ACTIVATION_CMD), []))
         env.addPackage('EMBuild', version=DEFAULT_EMBUILD_VERSION,
                        commands=EMBuild_commands,
-                       tar=VOID_TGZ,
                        default=True)
 
 
