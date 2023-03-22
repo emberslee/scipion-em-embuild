@@ -30,7 +30,6 @@ import pwem
 import shutil
 import pyworkflow as pw
 from pyworkflow.utils import Environ
-#from scipion.install.funcs import VOID_TGZ
 from .constants import *
 
 __version__ = '1.0.0'
