@@ -29,6 +29,7 @@ import os
 import pwem
 import shutil
 import pyworkflow as pw
+
 from pyworkflow.utils import Environ
 from .constants import *
 
