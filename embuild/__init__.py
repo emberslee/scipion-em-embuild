@@ -33,7 +33,7 @@ import pyworkflow as pw
 from pyworkflow.utils import Environ
 from .constants import *
 
-__version__ = '1.0.0'
+__version__ = '1.0.1'
 
 
 class Plugin(pwem.Plugin):
