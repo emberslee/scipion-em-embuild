@@ -96,6 +96,7 @@ class Plugin(pwem.Plugin):
         EMBuild_commands.append(('cd EMBuild_v1.0/mcp && %s %s && f2py -c interp3d.f90 -m interp3d' % (cls.getCondaActivationCmd(), DEFAULT_ACTIVATION_CMD), []))
         env.addPackage('EMBuild', version=DEFAULT_EMBUILD_VERSION,
                        commands=EMBuild_commands,
+                       tar='EMBuild_v1.0.tgz',
                        default=True)
 
 
