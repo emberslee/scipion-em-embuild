@@ -33,8 +33,9 @@ import pyworkflow as pw
 from pyworkflow.utils import Environ
 from .constants import *
 
-__version__ = '1.0.3'
+__version__ = '1.0.4'
 _references = ['HeJ2022']
+
 
 
 class Plugin(pwem.Plugin):
