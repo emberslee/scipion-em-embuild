@@ -34,6 +34,8 @@ from pyworkflow.utils import Environ
 from .constants import *
 
 __version__ = '1.0.4'
+_references = ['HeJ2022']
+
 
 
 class Plugin(pwem.Plugin):
@@ -96,7 +98,7 @@ class Plugin(pwem.Plugin):
         EMBuild_commands.append(('cd EMBuild_v1.0/mcp && %s %s && f2py -c interp3d.f90 -m interp3d' % (cls.getCondaActivationCmd(), DEFAULT_ACTIVATION_CMD), []))
         env.addPackage('EMBuild', version=DEFAULT_EMBUILD_VERSION,
                        commands=EMBuild_commands,
-                       tar='EMBuild_v1.0.tgz',
+                       tar='void.tgz',
                        default=True)
 
 
