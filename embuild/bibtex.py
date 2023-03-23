@@ -1,6 +1,6 @@
 # **************************************************************************
 # *
-# * Authors: Yunior C. Fonseca Reyna    (cfonseca@cnb.csic.es)
+# * Authors: Pablo Conesa (pconesa@cnb.csic.es)
 # *
 # *
 # * Unidad de  Bioinformatica of Centro Nacional de Biotecnologia , CSIC
@@ -24,3 +24,20 @@
 # *  e-mail address 'scipion@cnb.csic.es'
 # *
 # **************************************************************************
+
+"""
+
+@article{HeJ2022,
+title = "Model building of protein complexes from intermediate-resolution cryo-EM maps with deep learning-guided automatic assembly",
+journal = "Nat Commun",
+volume = "13",
+number = "4066",
+year = "2022",
+issn = "1047-8477",
+doi = "https://doi.org/10.1038/s41467-022-31748-9",
+url = "https://www.nature.com/articles/s41467-022-31748-9",
+author = "He, J., Lin, P., Chen, J. et al",
+}
+
+
+"""
